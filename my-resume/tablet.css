@@ -1,0 +1,204 @@
+
+
+
+/* ====================================================tablet screen===================================================================== */
+
+@media (min-width:578px) and (max-width:767px) {
+
+    /* ---------------------------------------------------------------------------------- */
+
+    .navbarWrapper{
+        position: relative;
+    }
+    .logo{
+        width:auto;
+        height:30px;
+    }
+    
+    .navbar{
+        width:100%;
+        height:1010px;
+        background-color:#070626;
+        position: absolute;
+        top:200px;
+        right:-95px;
+        display: flex;
+        transform: translateX(100%);
+        transition: all .5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+
+    .navbar-list{
+        flex-direction: column;
+        margin-top: 125px;
+        margin-left: 10px;
+       
+    }
+       
+    
+    /* -------------------------- */
+    .mobile-menu{
+        display: block;
+        margin-top:7px;
+        z-index: 999;
+    }
+    
+    .hide-menu{
+      display: none;
+    }
+
+
+    .active .navbar{
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+        pointer-events:stroke;
+    }
+
+    .active .mobile-menu .hide-menu{
+        display: block;
+    }
+
+    .active .mobile-menu .show-menu{
+        display: none;
+    }
+  
+    /* -------------------------------------navbar--------------------------------------------- */
+    
+    
+    #hero{
+        height:670px; 
+        text-align: center; 
+    }
+    /* ---------------------------hero section----------------------------------- */
+    
+    
+    
+    #about{
+        padding-bottom:100px;
+    }
+
+    #about h2{
+        margin-bottom:0px;
+    }
+    
+    #about h3{
+        margin-top:30px;
+    }
+    
+    
+    #about .img1{
+        height:480px;
+        margin-top:0px;
+        margin-left:0px; 
+    }
+
+
+    #about .col-md-6{
+        padding-left:20px;
+    }
+    
+    #about .icon-div{
+        margin-left:-10px;
+    }
+    
+    
+    #about .icon-div p{
+        font-size:16px;
+    }
+    
+    #i{
+        width:14px;
+        height:14px;  
+    }
+    
+    #btn2{
+        margin-left:-10px;
+    }
+    
+    /* --------------------------------------------about section----------------------------------------------------- */
+    
+    
+    #Services .col-md-6 div{
+        padding:30px;
+     }
+     
+     /* -------------------------------------------------------------------------------------- */
+    
+    
+     #coding .col-md-5 div{
+        width: 100%;
+        margin-top:10px;
+        padding-left: 40px;
+    }
+    
+    #coding .col-md-5 div font{
+        font-weight: 600;
+        font-size:18px;
+        margin-left:8px;
+        color:var(--gray);
+    }
+    
+    #coding .col-md-5 img{
+        width:22px;
+        height: auto; 
+        margin-left: -20px;
+    }
+    
+    #coding .col-md-7 img{
+        height:400px;
+        padding-left:0px;
+        margin-left:-35px;
+        margin-top:80px;
+       
+    }
+    
+    /* ------------------------coding section------------------------------------------------------------ */
+
+    #skill .col-md-5 img{
+        width: auto;
+        height:400px;
+        margin-left: -50px;
+        margin-top: -50px;
+     }
+
+
+
+     /* --------------------------------------------------------------------- */
+    
+    #team{
+        padding-bottom: 50px;
+     }
+    
+    
+    #team .card{
+        margin:38px;
+        margin-left:140px;
+     }
+    
+     
+    /* --------------------------------------------------------------- */
+    
+    
+    #footer h5{
+        margin-bottom:25px;
+        margin-top: 20px;
+        margin-left: 10px;
+     }
+    
+    
+    #footer p{
+        margin-top: -6px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    /* ----------------------------------------------------- */
+    
+    }
+    
+    
+    
+    
