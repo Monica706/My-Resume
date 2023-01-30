@@ -158,6 +158,10 @@
     
     /* ------------------------coding section------------------------------------------------------------ */
 
+      #skill{
+        padding-top:400px;
+     }
+    
     #skill .col-md-5 img{
         width: auto;
         height:400px;
