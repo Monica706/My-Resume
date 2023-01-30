@@ -160,6 +160,11 @@
     font-size:24px;
     margin-top:15px;
 }
+ 
+#Services .container .col-lg-3 div{
+    margin:45px 5px;
+ }
+  
 
 /* ---------------------------------------------------------------------- */
     
