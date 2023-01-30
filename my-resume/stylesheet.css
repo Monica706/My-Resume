@@ -417,6 +417,10 @@ text-align: center;
     margin-left: 70px;
 }
 
+.text-div div{
+    margin-bottom: 10px;
+}
+
 .text-div div h6{
     font-size: 22px;
     font-weight: 600;
@@ -785,23 +789,24 @@ text-align: center;
 }
 
 
+
 #portfolio .contain div:nth-child(1):hover img{
-    transform: translateY(-80.3%);
+    transform: translateY(-65.3%);
 }
 
 
 #portfolio .contain div:nth-child(2):hover img{
-    transform: translateY(-34.5%);
+    transform: translateY(-51.5%);
    
 }
 
 
 #portfolio .contain div:nth-child(3):hover img{
-    transform: translateY(-60.5%);
+    transform: translateY(-48.5%);
 }
 
 #portfolio .contain div:nth-child(4):hover img{
-    transform: translateY(-48.5%);
+    transform: translateY(-60.5%);
 }
 
 #portfolio .contain div:nth-child(5):hover img{
@@ -809,11 +814,11 @@ text-align: center;
 }
 
 #portfolio .contain div:nth-child(6):hover img{
-    transform: translateY(-53%);
+    transform: translateY(-53.6%);
 }
 
 #portfolio .contain div:nth-child(7):hover img{
-    transform: translateY(-55.7%);
+    transform: translateY(-56.6%);
 }
 
 
